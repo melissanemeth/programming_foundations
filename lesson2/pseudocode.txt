@@ -1,0 +1,46 @@
+1. A method that returns the sum of two integers
+
+    Get two numbers from the user
+    Add the two numbers together
+    Return the sum to the user
+    
+    START
+    GET first number from user
+    SET first number as number_1
+    GET second number from user
+    SET second number as number_2
+    Add number_1 + number_2
+    SET answer = sum
+    PRINT sum
+    END
+    
+    
+2. A method that takes an array of strings, and returns a string that is all those strings concatenated together.
+    
+    Get the array of strings
+    Extract each string from the array
+    Concatenate the strings together
+    Return the new string
+    
+    START
+    GET array of strings
+    READ each element in the array
+    Extract each element and concatenate
+    SET result to concatenated_string
+    PRINT concatenated_string
+    END
+    
+3. A method that takes an array of integers, and returns a new array with every other element.
+
+    Get the array of integers
+    Extract each integer from the even-numbered places within the array (0, 2, 4...)
+    Put these integers into a new array
+    Return the new array
+    
+    START
+    GET array of integers
+    Extract even numbered places from array and put in new array
+    SET these values to new_array
+    PRINT new_array
+    END
+    
