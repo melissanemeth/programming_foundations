@@ -115,3 +115,24 @@
   
     true                                                # if this isn't here it will return nil
   end
+  
+  def dot_separated_ip_address?(input_string)
+    dot_separated_words = input_string.split(".")
+    while dot_separated_words.size > 0 do
+      word = dot_separated_words.pop
+      break true if !is_a_number(word)
+    end
+  end
+  
+#   def dot_separated_ip_address?(input_string)
+#     dot_separated_words = input_string.split(".")
+#     while dot_separated_words.size > 0 do
+#       word = dot_separated_words.pop
+#       break(true) if true                 From Ruby Docs: break accepts a value that supplies the result of the expression it is "breaking" out of
+#     end
+#   end
+  
+  
+#   result = dot_separated_ip_address?("1.4.2.3")
+
+# binding.pry
